@@ -1,14 +1,12 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local Window = Library:NewWindow("Arbix Hub")
+local Window = Library:NewWindow("Arbix Hub | By touka")
 
 local Section = Window:NewSection("GK")
 -- Toggle for Auto GK
 Section:CreateButton("Auto GK", function()
-    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/S/refs/heads/main/K.lua"))()
 end)
-
-
 
 local Section = Window:NewSection("OP THINGS")
 
